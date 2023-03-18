@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:padding="10dp"
+    tools:context=".AdminDashboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/contact_bacground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Users"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_person_add_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Add user"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_delete_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_security_update_warning_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="81dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/contact_bacground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:layout_constraintVertical_bias="0.029"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Saving"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:layout_width="177dp"
+            android:layout_height="61dp"
+            android:backgroundTint="@color/teal_700"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Update savings"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <Button
+            android:layout_width="166dp"
+            android:layout_height="66dp"
+            android:backgroundTint="@color/teal_700"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="View Savings"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_report_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Report"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="81dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/contact_bacground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="0.048"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Loans"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Update loan"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <Button
+            android:layout_width="166dp"
+            android:layout_height="61dp"
+            android:backgroundTint="@color/teal_700"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="Allocate Loan"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_arrow_circle_right_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="more"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="81dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/contact_bacground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_bias="0.136"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Subscription"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_person_add_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="add Sub.."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_preview_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="View"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_arrow_circle_right_24"
+            android:gravity="left"
+            android:padding="14dp"
+            android:text="more"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="81dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
